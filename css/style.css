@@ -1,12 +1,10 @@
 .zigzag-text-bg-1{
     background-image: url(../images/pabel.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding-left: 50px;
 }
 .zigzag-text-bg-2{
     background-image: url(../images/pabel-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding-right: 50px;
 }
 .pabel{
     margin-left: auto;
