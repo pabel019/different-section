@@ -6,6 +6,12 @@
     background-image: url(../images/pabel-1.jpg);
     padding-right: 50px;
 }
+
+.section-padding {
+    background-size: cover;
+    background-position: center;
+}
+
 .pabel{
     margin-left: auto;
 }
