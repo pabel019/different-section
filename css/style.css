@@ -16,8 +16,13 @@
     margin-left: auto;
 }
 
-.zigzag-text-bg-1{
+.zigzag-text{
     position: relative;
+    z-index: 2;
+    padding-right: 50px;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .zigzag-text::after{
     content: "";
@@ -29,11 +34,17 @@
     height: 100%;
     width: 5000%;
     transform: skew(10deg);
-    opacity: 0.8;
+    z-index: -1;
 }
-.zigzag-text{
-    padding-top: 120px;
-    padding-bottom: 120px;
+.zigzag-text-bg-2 .zigzag-text:after {
+    left: auto;
+    right: -4900%;
+    background-color: #40bfbf;
+}
+
+.zigzag-text-bg-2 .zigzag-text {
+    padding-left: 100px;
+    padding-right: 0;
 }
 .zigzag-text p{
     color: yellow;
