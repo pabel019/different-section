@@ -1,0 +1,44 @@
+.zigzag-text-bg-1{
+    background-image: url(../images/pabel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zigzag-text-bg-2{
+    background-image: url(../images/pabel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pabel{
+    margin-left: auto;
+}
+
+.zigzag-text-bg-1{
+    position: relative;
+}
+.zigzag-text::after{
+    content: "";
+    background: #082352;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:-4900% ;
+    height: 100%;
+    width: 5000%;
+    transform: skew(10deg);
+    opacity: 0.8;
+}
+.zigzag-text{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.zigzag-text p{
+    color: yellow;
+
+}
+.zigzag-text a{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 15px;
+    background: white;
+    color: black;
+}
