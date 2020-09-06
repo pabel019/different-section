@@ -24,21 +24,42 @@
     left:-4900% ;
     height: 100%;
     width: 5000%;
-    transform: skew(10deg);
-    opacity: 0.8;
+    transform: skew(8deg);
+    opacity: 0.4;
 }
+
+.pabel::after{
+    content: "";
+    left: auto;
+    right: -4900%;
+    width: 5000%;
+    background: #49b0c0;
+
+}
+.pabel{
+    margin-left: 100px;
+}
+
 .zigzag-text{
     padding-top: 120px;
     padding-bottom: 120px;
+    padding-right: 20px;
+    
 }
 .zigzag-text p{
     color: yellow;
 
 }
+.zigzag-text p{
+    color:white;
+    font-weight: 500;
+}
 .zigzag-text a{
     margin-top: 10px;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px 8px;
     background: white;
     color: black;
+    margin-top: 20px;
+    border-radius: 5px;
 }
